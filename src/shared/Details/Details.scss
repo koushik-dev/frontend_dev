@@ -1,0 +1,49 @@
+.details {
+  margin: 5px 0;
+  &__title {
+    cursor: pointer;
+    margin-bottom: 5px;
+    font-family: "Bangers", cursive;
+    letter-spacing: 2px;
+    font-size: 26px;
+    color: transparent;
+    background-image: linear-gradient(
+      to right,
+      #b8cbb8 0%,
+      #b8cbb8 0%,
+      #b465da 0%,
+      #cf6cc9 33%,
+      #ee609c 66%,
+      #ee609c 100%
+    );
+    -webkit-background-clip: text;
+    &:hover {
+      text-decoration: underline;
+    }
+    &::marker {
+      display: none;
+    }
+  }
+  &[open] {
+    .details__title::before {
+      content: "📬";
+    }
+  }
+
+  & {
+    .details__title::before {
+      content: "📪";
+      margin-right: 10px;
+      color: grey;
+      background-color: transparent;
+    }
+  }
+  &__item {
+    list-style-type: none;
+    font-size: 21px;
+    margin: 5px 0;
+    a {
+      text-decoration: none;
+    }
+  }
+}

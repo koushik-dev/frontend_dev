@@ -1,0 +1,15 @@
+.header {
+    background: linear-gradient(to right, rgb(233, 193, 17), rgb(250, 223, 102));
+    padding: 20px;
+    text-align: center;
+    &__link {
+        color: #000;
+        text-decoration: none;
+    }
+    &__title {
+        font-family: 'Bangers', cursive;
+        font-size: 48px;
+        font-weight: 900;
+        letter-spacing: 2px;
+    }
+}

@@ -1,0 +1,15 @@
+.footer {
+    background: #00000090;
+    color: #ffffff;
+    padding-top: 10px;
+    &__credit {
+        margin: 0;
+        padding-bottom: 5px;
+        text-align: center;
+        a {
+            color: #ffffff;
+            font-weight: 700;
+        }
+        
+    }
+}
