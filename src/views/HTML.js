@@ -66,7 +66,11 @@ function HTML() {
         },
         {
           label: "Exercise",
-          link: "",
+          link: "https://codepen.io/koushik27/pen/JjWjVvK",
+        },
+        {
+          label: "Exercise - Final",
+          link: "https://codepen.io/koushik27/pen/OJpJGvv",
         },
       ],
     },
@@ -81,7 +85,28 @@ function HTML() {
           label: "Exercise",
           link: "https://codepen.io/koushik27/pen/wvJvEqj",
         },
+        {
+          label: "Exercise - Final",
+          link: "https://codepen.io/koushik27/pen/QWpWVdV",
+        },
       ],
+    },
+    {
+        title: 'Some more Semantics',
+        contents: [
+            {
+                label: 'description list, details, datalist, dialog',
+                link: 'https://developer.mozilla.org/en-US/docs/Web/HTML/Element'
+            },
+            {
+                label: 'Exercise',
+                link: 'https://codepen.io/koushik27/pen/zYZYmPz'
+            },
+            {
+                label: 'Exercise - Final',
+                link: 'https://codepen.io/koushik27/pen/LYWYgWe'
+            }
+        ]
     },
     {
       title: "References",
