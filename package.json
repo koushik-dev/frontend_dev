@@ -2,7 +2,7 @@
   "name": "react_dev",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://koushik-dev.github.io/frontend_dev",
+  "homepage": "https://koushik-dev.github.io/frontend_dev/",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@testing-library/jest-dom": "^5.12.0",

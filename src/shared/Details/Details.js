@@ -2,7 +2,7 @@ import "./Details.scss";
 
 const Details = ({ title, children }) => {
   return (
-    <details className="details">
+    <details className="details" open>
       <summary className="details__title">{title}</summary>
       <ul>
         {children?.map((c) => (
