@@ -58,7 +58,7 @@ function HTML() {
           label: "Pseudo elements - before and after",
         },
         {
-          label: "<br/>, <hr/>, &nbsp; - self closing tags",
+          label: "<br/>, <hr/>, &nbsp; - self closing tags, Entities",
         },
         {
           label: "IS Navigation possible?",
