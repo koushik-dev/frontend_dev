@@ -4,7 +4,21 @@ import Details from "../shared/Details";
 const CSS = () => {
   const contents = [
     {
-      title: 'CSS Specificity'
+      title: 'Foundation',
+      contents: [
+        {
+          label: 'Box-sizing'
+        },
+        {
+          label: 'Borders'
+        },
+        {
+          label: 'Box-shadow'
+        },
+        {
+          label: 'CSS Variables'
+        }
+      ]
     },
     {
       title: 'Pseudo elements',
@@ -35,16 +49,28 @@ const CSS = () => {
       ]
     },
     {
-      title: "Typography - em, rem, ch, px",
-    },
-    {
-      title: "Box-sizing",
+      title: 'Ignite the fire',
+      contents: [
+        {
+          label: 'Typography - em, rem, ch, px'
+        },
+        {
+          label: 'Fonts'
+        },
+        {
+          label: 'CSS specificity'
+        },
+        {
+          label: 'CSS in JS'
+        }
+      ]
     },
     {
       title: "Grid System",
       contents: [
         {
           label: "Flex/Grid",
+          link: "https://codepen.io/koushik27/pen/oNZgmbW"
         },
         {
           label: 'Exercise',
@@ -56,6 +82,19 @@ const CSS = () => {
         },
       ],
     },
+    {
+      title: 'GAMES',
+      contents: [
+        {
+          label: 'Game 1',
+          link: 'https://codepen.io/koushik27/full/vYgaYap'
+        },
+        {
+          label: 'Game 2',
+          link: 'https://codepen.io/koushik27/full/qBRywzy'
+        }
+      ]
+    }
   ];
   return (
     <main className="html">
