@@ -52,7 +52,7 @@ const CSS = () => {
       title: 'Ignite the fire',
       contents: [
         {
-          label: 'Typography - em, rem, ch, px'
+          label: 'Positions - (relative, absolute, sticky, fixed, static)'
         },
         {
           label: 'Fonts'
